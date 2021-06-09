@@ -1,0 +1,37 @@
+body{
+	background: white;
+	text-align: center;
+}
+
+h1{
+	color: green;
+	font-family: didot;
+}
+
+h3, ul {
+	text-align: left;
+}
+
+.avatar{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border:10px solid black;
+	box-shadow: 10px 10px 10px yellow;
+}
+
+.img-galery{
+	border-radius: 15px
+}
+
+.frame{
+	border: 4px dashed black;
+	margin: 60px auto; 
+	padding: 30px;
+	width: 300px;
+}
+.frame2{
+	border: 2px solid red;
+	margin: 30px auto;
+}
