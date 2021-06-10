@@ -1,11 +1,12 @@
 body{
 	background: white;
 	text-align: center;
+	font-family: 'Dancing Script', cursive;
 }
 
 h1{
 	color: green;
-	font-family: didot;
+	font-family: 'Dancing Script', cursive;
 }
 
 h3, ul {
@@ -17,8 +18,8 @@ h3, ul {
 	width: 250px;
 	height: 250px;
 	object-fit: cover;
-	border:10px solid black;
-	box-shadow: 10px 10px 10px yellow;
+	border:10px solid green;
+	box-shadow: 5px 5px 10px red;
 }
 
 .img-galery{
@@ -35,3 +36,73 @@ h3, ul {
 	border: 2px solid red;
 	margin: 30px auto;
 }
+.img{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+.btn-red{
+	display: inline-block;
+	color: white;
+	background: red;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 5px
+	font-weight: bold;
+}
+.btn-red:hover{
+	color: whites;
+	opacity:0.8;
+}
+
+.button{
+	color:green;
+}
+
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+}
+
+.line-light {
+  height: 50px;
+  width: 33%;
+  background: #FF1616;
+}
+
+.line-medium {
+  height: 50px;
+  width: 33%;
+  background: #FFFFFF;
+}
+
+.line-hard {
+  height: 50px;
+  width: 35%;
+  background: #027634;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E2F3DC;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: red;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+.font-family: 'Viaoda Libre', cursive;
+
+
